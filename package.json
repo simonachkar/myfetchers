@@ -1,0 +1,25 @@
+{
+  "name": "myfetchers",
+  "version": "1.0.0",
+  "description": "An online platform that allows users (taskers) to add specific tasks around the globe where other members (fetchers) would accept and fulfill those requests. ",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "author": "Simon Achkar",
+  "license": "ISC",
+  "dependencies": {
+    "next": "^7.0.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  },
+  "devDependencies": {
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-jsx-a11y": "^6.1.1",
+    "eslint-plugin-react": "^7.11.1"
+  }
+}
