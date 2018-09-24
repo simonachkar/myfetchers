@@ -1,10 +1,11 @@
-import Header from '../components/Header';
+import Layout from '../components/Layout';
+import Hero from '../components/Hero';
 
 const Index = () => (
-  <div>
-    <Header />
+  <Layout>
+    <Hero />
     <p style={{ fontSize: 20 }}>My Fetchers</p>
-  </div>
+  </Layout>
 );
 
 export default Index;

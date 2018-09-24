@@ -5,6 +5,6 @@ const About = () => (
     <Header />
     <p>About</p>
   </div>
-)
+);
 
 export default About;
