@@ -1,10 +1,11 @@
 import Layout from '../components/Layout';
-import Hero from '../components/Hero';
+import Hero from '../components/home/Hero';
+import BreifDescription from '../components/home/BreifDescription';
 
 const Index = () => (
   <Layout>
     <Hero />
-    <p style={{ fontSize: 20 }}>My Fetchers</p>
+    <BreifDescription />
   </Layout>
 );
 

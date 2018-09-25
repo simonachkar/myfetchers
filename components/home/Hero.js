@@ -1,17 +1,16 @@
-import React from 'react';
-
 const Hero = () => (
   <div className="hero-image">
+
     <div className="hero-text">
-      <h1 style={{ fontSize: '40px' }}>
+      <h1>
         Without your physical presence,
         <b> your fetcher</b> will deliver to you <b>anything</b> from <b>anywhere</b>.
       </h1>
     </div>
+
     <style jsx>
       {`
         b {
-          font-size: 43px;
           font-weight: 600;
         }
         .hero-image {
@@ -34,6 +33,7 @@ const Hero = () => (
       }
     `}
     </style>
+
   </div>
 );
 
