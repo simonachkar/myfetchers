@@ -23,7 +23,6 @@ const Hero = () => (
           background-attachment: fixed;
           background-repeat: no-repeat;
           background-size: cover;
-          position: relative;
         }
         .hero-text {
           text-align: right;

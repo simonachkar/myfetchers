@@ -1,41 +1,53 @@
 import Link from 'next/link';
 
-const container = {
-  marginBottom: 15,
-  display: 'flex',
-  justifyContent: 'space-around',
-  overflow: 'hidden',
-  padding: '20px 10px', /* Large padding which will shrink on scroll (using JS) */
-  transition: '0.4s', /* Adds a transition effect when the padding is decreased */
-  position: 'fixed', /* Sticky/fixed navbar */
-  width: '100%',
-  top: 0, /* At the top */
-  zIndex: 99,
-};
+// const container = {
+//   backgroundColor: 'white',
+//   marginBottom: 15,
+//   display: 'flex',
+//   justifyContent: 'space-around',
+//   overflow: 'hidden',
+//   padding: '20px 10px', /* Large padding which will shrink on scroll (using JS) */
+//   transition: '0.4s', /* Adds a transition effect when the padding is decreased */
+//   position: 'fixed', /* Sticky/fixed navbar */
+//   width: '100%',
+//   top: 0, /* At the top */
+//
+// };
 
 const Header = () => (
-  <div style={container}>
+  <div className="container">
     <style jsx>
       {`
+        .container {
+          background-color: white;
+          margin-bottom: 15;
+          display: flex;
+          justify-content: space-around;
+          overflow: hidden;
+          padding: 10px 10px;
+          position: fixed;
+          width: 100%;
+          top: 0
+        }
         a {
           float: left;
-          color: white;
-          padding: 12px;
+          color: black;
+          padding: 10px;
           text-decoration: none;
           line-height: 25px;
           border-radius: 4px;
-          font-size: 120%;
+          font-size: 125%;
+          transition: 0.4s;
         }
         .navbar a {
           text-align: center;
           margin-right: 15px;
         }
         a:hover {
-          color: #eee;
+          color: #a3a3a3;
         }
         .logo {
-          font-size: 18px;
-          font-size: 20px;
+          font-size: 130%;
           font-weight: bold;
           transition: 0.4s;
           text-decoration: none;
