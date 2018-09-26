@@ -1,19 +1,5 @@
 import Link from 'next/link';
 
-// const container = {
-//   backgroundColor: 'white',
-//   marginBottom: 15,
-//   display: 'flex',
-//   justifyContent: 'space-around',
-//   overflow: 'hidden',
-//   padding: '20px 10px', /* Large padding which will shrink on scroll (using JS) */
-//   transition: '0.4s', /* Adds a transition effect when the padding is decreased */
-//   position: 'fixed', /* Sticky/fixed navbar */
-//   width: '100%',
-//   top: 0, /* At the top */
-//
-// };
-
 const Header = () => (
   <div className="container">
     <style jsx>
@@ -27,7 +13,8 @@ const Header = () => (
           padding: 10px 10px;
           position: fixed;
           width: 100%;
-          top: 0
+          top: 0;
+          z-index: 99;
         }
         a {
           float: left;
