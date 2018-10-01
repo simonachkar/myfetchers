@@ -71,7 +71,7 @@ const HowItWorks = () => (
           padding-top: 50px;
         }
         .section {
-          padding: 30px 10px;
+          padding: 30px 10px 0px 10px;
         }
         ol {
           padding-top: 20px;
