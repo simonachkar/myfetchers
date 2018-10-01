@@ -28,7 +28,7 @@ class Header extends React.Component {
 
         { /* Mobile Menu */ }
         <Hidden mdUp>
-          <AppBar position="static" color="default">
+          <AppBar position="static" color="default" elevation={0}>
             <Toolbar>
               <IconButton
                 color="inherit"
@@ -38,7 +38,7 @@ class Header extends React.Component {
               >
                 <MenuIcon />
               </IconButton>
-              <h2 style={{ textAlign: 'center' }}>
+              <h2 style={{ textAlign: 'center', color: '#0059bf' }}>
                 My Fetchers
               </h2>
             </Toolbar>
@@ -79,7 +79,7 @@ class Header extends React.Component {
 
         { /* Menu */ }
         <Hidden smDown>
-          <AppBar position="static" color="default">
+          <AppBar position="static" color="default" elevation={0}>
             <Toolbar style={{ padding: '0px 100px' }}>
               <Link href="/">
                 <a className="logo">My Fetchers</a>

@@ -68,14 +68,45 @@ const HowItWorks = () => (
       {`
         .container {
           padding: 30px;
-          padding-top: 50px;
         }
         .section {
           padding: 30px 10px 0px 10px;
         }
+        /* Reset the style of list */
         ol {
-          padding-top: 20px;
-          padding-left: 40px;
+          position: relative;
+          list-style: none;
+          padding: 0;
+        }
+        /* Add indentation of nested lists and remove bottom margin */
+        ol ol {
+          margin: 0;
+        }
+        /* Add general display for bullets and numbers */
+        ol li {
+          padding-left: 1em;
+          margin: .25em 0;
+        }
+        ol li:before {
+          position: absolute;
+          left: 0;
+          color: #0059bf;
+          font-weight: bold;
+        }
+        /* Reset counter for  list */
+        ol {
+          counter-reset: listitem;
+        }
+        ol li {
+          padding-left: 1.3em;
+        }
+        /* Style for numbered lists. Increment counter for each list item */
+        ol li:before {
+          counter-increment: listitem;
+          content: counters(listitem, '.') '.';
+        }
+        ol, ol li:before {
+          padding-left: 1em;
         }
         .message {
           font-weight: 600;
@@ -88,9 +119,12 @@ const HowItWorks = () => (
           .section {
             padding: 10px 5px;
           }
-          ol {
-            padding-top: 10px;
-            padding-left: 20px;
+          ol, ol li:before {
+            padding-left: .5em;
+          }
+          h2 {
+            padding: 1em 0;
+            text-align: center;
           }
         }
       `}
