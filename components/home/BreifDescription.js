@@ -56,7 +56,7 @@ const BreifDescription = () => (
     <style jsx>
       {`
         section {
-          padding: 50px 40px;
+          padding: 80px 40px 100px 40px;
         }
         h1 {
           text-align: center;
@@ -70,6 +70,7 @@ const BreifDescription = () => (
           list-style: none;
         }
         ul li:before {
+          color: #0059bf;
           content: '✓';
           margin-right: 10px;
         }

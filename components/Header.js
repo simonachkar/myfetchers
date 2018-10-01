@@ -95,8 +95,8 @@ class Header extends React.Component {
                   <a>Contact Us</a>
                 </Link>
               </div>
-              <Button size="medium" style={{ marginRight: 30 }} color="inherit">Sign Up</Button>
-              <Button size="medium" avariant="contained" color="inherit">Login</Button>
+              <Button size="medium" style={{ marginRight: 30 }} variant="outlined" color="primary">Sign Up</Button>
+              <Button size="medium" avariant="contained" variant="outlined" color="primary">Login</Button>
             </Toolbar>
           </AppBar>
         </Hidden>
@@ -121,6 +121,8 @@ class Header extends React.Component {
               color: #a3a3a3;
             }
             .logo {
+              color: #0059bf;
+              font-size: 140% !important;
               margin-left: -12px;
               margin-right: 30px;
               font-size: 130%;
