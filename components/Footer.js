@@ -33,27 +33,28 @@ const Footer = () => (
     <style jsx>
       {`
         section {
-          background-color: #0059bf;
+          background-color: #f5f5f5;
         }
         .flex {
           padding: 20px 80px;
           display: flex;
          justify-content: space-between;
         }
+        .logo {
+          color: #0059bf;
+          font-size: 140% !important;
+          font-weight: bold;
+          text-decoration: none;
+        }
         a {
           float: left;
-          color: white;
+          color: black;
           text-decoration: none;
           border-radius: 4px;
           transition: 0.4s;
         }
         a:hover {
-          color: #ededed;
-        }
-        .logo {
-          font-size: 140% !important;
-          font-weight: bold;
-          text-decoration: none;
+          color: #0059bf;
         }
         .navbar a {
           text-align: center;
@@ -62,15 +63,14 @@ const Footer = () => (
         hr {
         border: 0 none;
         height: .5px;
-        color: #006ce8; /* old IE */
-        background-color: #006ce8; /* Modern Browsers */
+        color: #e8e8ea; /* old IE */
+        background-color: #e8e8ea; /* Modern Browsers */
         }
         .bottom a {
           text-align: center;
           margin-left: 20px;
         }
         p {
-          color: white;
           font-size: 90%;
         }
         @media only screen and (max-width: 800px) {

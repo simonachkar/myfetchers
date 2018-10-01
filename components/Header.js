@@ -118,7 +118,7 @@ class Header extends React.Component {
               margin-right: 15px;
             }
             a:hover {
-              color: #a3a3a3;
+              color: #0059bf;
             }
             .logo {
               color: #0059bf;
