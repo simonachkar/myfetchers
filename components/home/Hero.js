@@ -18,7 +18,7 @@ const Hero = () => (
           height: auto;
           background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("/static/bg.jpg");
           height: 600px;
-          background-position: left 20%;
+          background-position: 45% 40%;
           background-attachment: fixed;
           background-repeat: no-repeat;
           background-size: cover;
@@ -27,7 +27,7 @@ const Hero = () => (
           text-align: right;
           position: absolute;
           left: 50%;
-          top: 50%;
+          top: 45%;
           transform: translate(-10%, -50%);
           color: white;
       }
