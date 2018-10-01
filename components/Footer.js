@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Footer = () => (
   <section>
-    <div className="flex padding">
+    <div className="flex">
       <Link href="/">
         <a className="logo">My Fetchers</a>
       </Link>
@@ -36,18 +36,14 @@ const Footer = () => (
           background-color: #0059bf;
         }
         .flex {
-            padding: 20px 80px;
+          padding: 20px 80px;
           display: flex;
          justify-content: space-between;
-        }
-        .padding {
-
         }
         a {
           float: left;
           color: white;
           text-decoration: none;
-          line-height: 25px;
           border-radius: 4px;
           transition: 0.4s;
         }
@@ -76,6 +72,18 @@ const Footer = () => (
         p {
           color: white;
           font-size: 90%;
+        }
+        @media only screen and (max-width: 800px) {
+          .flex {
+            padding: 20px 10px;
+          }
+          a, p {
+            text-align: center;
+            font-size: 80%;
+          }
+          .logo {
+            font-size: 100% !important;
+          }
         }
       `}
     </style>
