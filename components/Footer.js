@@ -19,9 +19,6 @@ const Footer = () => (
     <div className="flex">
       <p>Copyright &copy; {(new Date()).getFullYear()} My Fetchers</p>
       <div stlye={{ display: 'flex' }} className="bottom">
-        <Link href="/terms-of-use">
-          <a>Terms of Use</a>
-        </Link>
         <Link href="/privacy-policy">
           <a>Privacy Policy</a>
         </Link>
