@@ -68,11 +68,6 @@ class Header extends React.Component {
                   <a>About Us</a>
                 </Link>
               </ListItem>
-              <ListItem button>
-                <Link href="/contact-us">
-                  <a>Contact Us</a>
-                </Link>
-              </ListItem>
             </List>
           </Drawer>
         </Hidden>
@@ -90,9 +85,6 @@ class Header extends React.Component {
                 </Link>
                 <Link href="/about">
                   <a>About Us</a>
-                </Link>
-                <Link href="/contact-us">
-                  <a>Contact Us</a>
                 </Link>
               </div>
               <Button size="medium" style={{ marginRight: 30 }} variant="outlined" color="primary">Sign Up</Button>

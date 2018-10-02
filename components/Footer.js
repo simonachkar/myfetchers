@@ -13,9 +13,6 @@ const Footer = () => (
         <Link href="/about">
           <a>About Us</a>
         </Link>
-        <Link href="/contact-us">
-          <a>Contact Us</a>
-        </Link>
       </div>
     </div>
     <hr />
@@ -38,7 +35,7 @@ const Footer = () => (
         .flex {
           padding: 20px 80px;
           display: flex;
-         justify-content: space-between;
+          justify-content: space-between;
         }
         .logo {
           color: #0059bf;
