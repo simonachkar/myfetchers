@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start -p 8000",
-    "export": "next export"
+    "export": "npm run build && next export"
   },
   "author": "Simon Achkar",
   "license": "ISC",
