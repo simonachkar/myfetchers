@@ -1,13 +1,12 @@
 import Header from './Header';
 import Footer from './Footer';
+import Meta from './Meta';
 
 const Layout = ({ children }) => (
   <div>
     <meta name="viewport" content="width=device-width, initial-scale = 1.0, maximum-scale=1.0, user-scalable=no" />
     <link href="https://fonts.googleapis.com/css?family=Signika" rel="stylesheet" />
-    <head>
-      <title>My Fetchers</title>
-    </head>
+    <Meta />
     <style global jsx>
       {`
         h1 {
