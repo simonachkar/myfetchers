@@ -87,8 +87,8 @@ class Header extends React.Component {
                   <a>About Us</a>
                 </Link>
               </div>
-              <a href="https://app-myfetchers.herokuapp.com/signup" rel="noopener noreferrer" target="_blank"><Button size="medium" style={{ marginRight: 30 }} variant="outlined" color="primary">Sign Up</Button></a>
-              <a href="https://app-myfetchers.herokuapp.com/" rel="noopener noreferrer" target="_blank"><Button size="medium" avariant="contained" variant="outlined" color="primary">Login</Button></a>
+              <a href="https://my-fetchers.herokuapp.com/signup" rel="noopener noreferrer" target="_blank"><Button size="medium" style={{ marginRight: 30 }} variant="outlined" color="primary">Sign Up</Button></a>
+              <a href="https://my-fetchers.herokuapp.com/" rel="noopener noreferrer" target="_blank"><Button size="medium" avariant="contained" variant="outlined" color="primary">Login</Button></a>
             </Toolbar>
           </AppBar>
         </Hidden>
